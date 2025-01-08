@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+.left {
+    height: 100%;
+    padding: 1em;
+    background-color: #2F9DED;
+    color: white;
+    font: 'Kanit', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF006B;
+}
+
+.hero-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.pink {
+    color: #FF006B;
+}
