@@ -18,7 +18,7 @@ function Products() {
   const boxWidth = useBreakpointValue({ base: "100%", md: "50%" });
 
   useEffect(() => { 
-    if (slug === 0) {
+    if (slug === "0") {
       setBrand("Apple");
       setImage("https://images.ctfassets.net/evnrpfa1vdk4/19ppXPEmEtAWZfb8eBcIdJ/94a86c4f021984f4ae87d1ce69363cf4/iPhone_15_Pro_Max_Natural_Titanium_PDP_Image_Position-1__CAEN-copy.png?w=1000&q=100&fm=webp");
       setPhone("iPhone 15 Pro Max to the Max!");
